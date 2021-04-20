@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(hsla(0, 100%, 3%, 0.426), hsla(0, 100%, 3%, 0.426)), url("./images/dan-farrell-qayNP9ccw9E-unsplash\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Roboto';
+}
+
+.container {
+    height: 95vh;
+    width: 94vw;
+    display: flex;
+}
+
+.left {
+    position: relative;
+    flex: 1;
+    width: 50%;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.left .left-hr {
+    top: 0;
+    height: 100%;
+    position: absolute;
+    opacity: 30%;
+
+}
+
+.left .middle-hr {
+    top: 0;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    opacity: 30%;
+}
+
+.left .right-hr {
+    top: 0;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    opacity: 30%;
+}
+
+.left .blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -100;
+    background-color: hsla(0, 1%, 63%, 0.419);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.left .top {
+
+    display: flex;
+    gap: 20px;
+}
+
+.left .top .name {
+    color: white;
+    margin-left: -10px;
+}
+
+.left .top img {
+    width: 50px;
+    height: 50px;
+    width: 40px;
+
+}
+
+.left .bottom .message {
+    margin-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.left .bottom .story {
+    margin-top: 30px;
+    width: 430px;
+    color: white;
+}
+
+.left .bottom .button {
+    color: white;
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    background-image: -webkit-linear-gradient(68.2deg, rgba(255, 202, 88, 1) 0%, rgba(139, 73, 255, 1) 100.2%);
+    margin-bottom: 60px;
+}
+
+.left .bottom .about-us {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    background-image: -webkit-linear-gradient(68.2deg, rgba(255, 202, 88, 1) 0%, rgba(139, 73, 255, 1) 100.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    position: relative;
+    flex: 1;
+    width: 50%;
+    background-image: linear-gradient(rgba(223, 222, 222, 0.1), rgba(223, 222, 222, 0.1));
+    border-radius: 10px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.right .middle-hr {
+    position: absolute;
+    height: 100%;
+    right: 10.7%;
+    opacity: 30%;
+}
+
+.right ul li {
+    color: white;
+    margin-top: 40px;
+    margin-right: 20px;
+    box-shadow: 2px 0px 0px white;
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+
+.right ul li:last-of-type {
+    box-shadow: none;
+    font-size: 25px;
+    margin-left: -20px;
+}
+
+.right .scroll {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    color: white;
+
+}
